@@ -122,7 +122,7 @@
           @click="isOpen = false"
           class="flex w-full items-center p-4 border-b border-gray-700"
         >
-          <img draggable="false" src="/assets/img/Logo.png" class="w-full" />
+          <img draggable="false" src="/assets/img/logo.gif" class="w-full" />
         </span>
 
         <ul class="divide-y">
