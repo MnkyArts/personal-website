@@ -30,7 +30,7 @@
         class="relative text-center sm:text-left mb-20 sm:px-32 z-20 sm:z-0 sm:mb-0"
       >
         <div class="mb-5" id="headers">
-          <VueWriter class="font-geom text-ci-purple sm:text-4xl m-0" :array="string" :eraseSpeed="50" :typeSpeed="100">
+          <VueWriter class="font-geom text-ci-purple font-semibold sm:text-4xl m-0" :array="string" :eraseSpeed="50" :typeSpeed="100">
           </VueWriter>
           <h2
             class="font-geom text-white text-4xl sm:text-5xl md:text-9xl font-bold m-0"
@@ -38,7 +38,7 @@
             LIAM ROBINSON
           </h2>
           <h1
-            class="font-geom text-white sm.text-5xl m-0"
+            class="font-geom text-white sm:text-5xl m-0"
           >
             DEVELOPER AND GRAPHIC DESIGNER
           </h1>
