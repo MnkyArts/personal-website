@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Geom Graphic";
+  src: url("/fonts/GeomGraphicLight.woff") format("woff");
+  font-weight: lighter;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geom Graphic";
+  src: url("/fonts/GeomGraphicLightItalic.woff") format("woff");
+  font-weight: lighter;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geom Graphic";
+  src: url("/fonts/GeomGraphicRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geom Graphic";
+  src: url("/fonts/GeomGraphicRegularItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geom Graphic";
+  src: url("/fonts/GeomGraphicSemiBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geom Graphic";
+  src: url("/fonts/GeomGraphicSemiBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geom Graphic";
+  src: url("/fonts/GeomGraphicBold.woff") format("woff");
+  font-weight: bolder;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geom Graphic";
+  src: url("/fonts/GeomGraphicBoldItalic.woff") format("woff");
+  font-weight: bolder;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Carbon";
+  src: url("/fonts/CarbonThin.ttf") format("ttf");
+  font-weight: lighter;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Carbon";
+  src: url("/fonts/CarbonThinItalic.ttf") format("ttf");
+  font-weight: lighter;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Carbon";
+  src: url("/fonts/CarbonRegular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Carbon";
+  src: url("/fonts/CarbonRegularItalic.ttf") format("ttf");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Carbon";
+  src: url("/fonts/CarbonBold.ttf") format("ttf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Carbon";
+  src: url("/fonts/CarbonBoldItalic.ttf") format("ttf");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
