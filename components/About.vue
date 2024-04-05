@@ -22,7 +22,7 @@
     ></div>
     <div
       data-aos="fade-right"
-      class="absolute top-16 -right-5 md:right-40"
+      class="absolute top-16 -right-5 lg:right-40"
     >
       <img
         draggable="false"
@@ -36,7 +36,7 @@
         "
       />
     </div>
-    <div data-aos="fade-left" class="absolute top-16 left-10 md:left-64">
+    <div data-aos="fade-left" class="absolute top-16 left-10 lg:left-64">
       <img
         draggable="false"
         src="/img/mailbox.png"
