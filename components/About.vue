@@ -54,7 +54,7 @@
         class="flex justify-center items-center text-center text-white flex-col h-auto gap-5 md:gap-10 mt-32 md:mt-0"
       >
         <p class="md:w-[45rem] font-semibold drop-shadow-[2px_4px_15px_black]">
-          I'm <span class="text-ci-purple">Liam Robinson</span>, a graphic designer and web developer from Lüneburg, Germany, with 8+ years of experience. I excel in logo, web, and print design, offering effective and efficient solutions for your design needs. In my free time, I work on various projects using Node.js, Next.js, and alt:V. Occasionally, you can also watch me on Twitch to see what I'm currently working on.
+          I'm <span class="text-ci-purple">Liam Robinson</span>, a graphic designer and web developer from Lüneburg, Germany, with 8+ years of experience. I excel in logo, web, and print design, offering effective and efficient solutions for your design needs. In my free time, I work on various projects using Node.js, Nuxt, and Next.js. Occasionally, you can also watch me on Twitch to see what I'm currently working on.
         </p>
         <div class="w-full flex flex-col justify-center items-center md:flex-row gap-3 md:gap-10">
           <a

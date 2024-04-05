@@ -106,12 +106,12 @@
           >
             <svg
               class="w-6 h-6"
-              fill="none"
+              fill=""
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
               viewBox="0 0 24 24"
-              stroke="currentColor"
+              stroke="white"
             >
               <path d="M6 18L18 6M6 6l12 12"></path>
             </svg>
@@ -120,9 +120,9 @@
 
         <span
           @click="isOpen = false"
-          class="flex w-full items-center p-4 border-b border-gray-700"
+          class="flex w-full items-center justify-center p-4 border-b border-gray-700"
         >
-          <img draggable="false" src="/assets/img/logo.gif" class="w-full" />
+          <img draggable="false" src="/assets/img/logo.gif" class="w-1/2 invert" />
         </span>
 
         <ul class="divide-y">

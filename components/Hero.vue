@@ -5,7 +5,7 @@
       class="h-[550px] md:h-screen flex items-end justify-center sm:items-center sm:justify-normal relative overflow-hidden opacity-0"
     >
       <div
-        class="absolute top-0 bottom-0 left-0 right-0 bg-no-repeat bg-hero min-h-full bg-top [background-position-x:center]"
+        class="absolute top-0 bottom-0 left-0 right-0 bg-cover bg-no-repeat bg-hero min-h-full bg-top [background-position-x:center]"
         style="
         mask-image: linear-gradient(black 75%, transparent 100%);
         -webkit-mask-image: linear-gradient(black 75%, transparent 100%);
