@@ -12,34 +12,49 @@
         >
           My Projects
         </h2>
-        <p class="text-white md:text-2xl">
-          Latest work i've done
-        </p>
+        <p class="text-white md:text-2xl">Latest work i've done</p>
       </div>
-        <div class="hidden sm:block w-1/2 h-[1px] bg-gradient-to-r from-ci-purple"></div>
+      <div
+        class="hidden sm:block w-1/2 h-[1px] bg-gradient-to-r from-ci-purple"
+      ></div>
     </div>
 
-    <ProjectItem v-for="(project, index) in projects" :key="index" :left="index % 2 === 0" v-bind="project" />
+    <ProjectItem
+      v-for="(project, index) in projects"
+      :key="index"
+      :left="index % 2 === 0"
+      v-bind="project"
+    />
+
+    <div
+      class="mt-10 m-auto z-30 w-max"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <a
+        href="#"
+        class="bg-ci-purple px-5 py-2 rounded text-white font-semibold hover:bg-transparent transition-all duration-300 ease-in-out border-2 border-ci-purple hover:border-ci-purple hover:text-ci-purple hover:bottom-2 hover:shadow-lg text-center"
+        >VIEW MORE</a
+      >
+    </div>
   </section>
 </template>
 
 <script setup>
-
 const projects = [
   {
-    tag: 'Website',
-    title: 'Planet Reallife',
-    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    img: 'https://i.imgur.com/LpH1xTC.jpeg'
+    tag: "Website",
+    title: "Planet Reallife",
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+    img: "https://i.imgur.com/LpH1xTC.jpeg",
   },
   {
-    tag: 'Website',
-    title: 'Datenleak',
-    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    img: 'https://i.imgur.com/i9wbqNn.png'
-  }
-]
-
+    tag: "Website",
+    title: "Datenleak",
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+    img: "https://i.imgur.com/i9wbqNn.png",
+  },
+];
 </script>
 
 <style lang="scss" scoped></style>

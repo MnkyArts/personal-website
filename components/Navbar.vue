@@ -18,7 +18,9 @@
           src="/assets/img/logo.gif"
           alt="Your Company"
         />
-        <span class="text-white font-geom font-semibold text-xl">LIAM ROBINSON</span>
+        <span class="text-white font-geom font-semibold text-xl"
+          >LIAM ROBINSON</span
+        >
       </div>
 
       <!-- Mobile toggle -->
@@ -122,7 +124,11 @@
           @click="isOpen = false"
           class="flex w-full items-center justify-center p-4 border-b border-gray-700"
         >
-          <img draggable="false" src="/assets/img/logo.gif" class="w-1/2 invert" />
+          <img
+            draggable="false"
+            src="/assets/img/logo.gif"
+            class="w-1/2 invert"
+          />
         </span>
 
         <ul class="divide-y">
