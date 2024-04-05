@@ -71,7 +71,6 @@
 </template>
 
 <script setup>
-import { EnvelopeIcon } from "@heroicons/vue/24/outline";
 import VueWriter from "vue-writer";
 
 const string = [
