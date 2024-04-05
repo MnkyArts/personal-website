@@ -13,8 +13,7 @@ export default {
         projects: "url('/assets/img/projectsbg.png')",
       },
       fontFamily: {
-        carbon: ["Carbon"],
-        geom: ["Geom Graphic"],
+        geom: ["geom-graphic"],
       },
     },
   },

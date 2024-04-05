@@ -33,12 +33,12 @@
           <VueWriter class="font-geom text-ci-purple font-semibold lg:text-4xl m-0" :array="string" :eraseSpeed="50" :typeSpeed="100">
           </VueWriter>
           <h2
-            class="font-geom text-white text-4xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-9xl font-bold m-0"
+            class="font-geom text-white text-4xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-9xl font-extrabold m-0"
           >
             LIAM ROBINSON
           </h2>
           <h1
-            class="font-geom text-white lg:text-5xl m-0 break-all"
+            class="font-geom text-white lg:text-5xl m-0 font-light break-all"
           >
             DEVELOPER AND GRAPHIC DESIGNER
           </h1>

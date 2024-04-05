@@ -1,115 +1,79 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @font-face {
-  font-family: "Geom Graphic";
-  src: url("/fonts/GeomGraphicLight.ttf") format("ttf");
-  font-weight: lighter;
+  font-family: "geom-graphic";
+  src: url("/fonts/GeomGraphicLight.woff") format("woff"),
+  url("/fonts/GeomGraphicLight.ttf") format("ttf"),
+  url("/fonts/GeomGraphicLight.woff2") format("woff2");
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Geom Graphic";
-  src: url("/fonts/GeomGraphicLightItalic.ttf") format("ttf");
-  font-weight: lighter;
+  font-family: "geom-graphic";
+  src: url("/fonts/GeomGraphicLightItalic.woff") format("woff"),
+  url("/fonts/GeomGraphicLightItalic.ttf") format("ttf"),
+  url("/fonts/GeomGraphicLightItalic.woff2") format("woff2");
+  font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Geom Graphic";
-  src: url("/fonts/GeomGraphicRegular.ttf") format("ttf");
-  font-weight: normal;
+  font-family: "geom-graphic";
+  src: url("/fonts/GeomGraphicRegular.woff") format("woff"),
+  url("/fonts/GeomGraphicRegular.ttf") format("ttf"),
+  url("/fonts/GeomGraphicRegular.woff2") format("woff2");
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Geom Graphic";
-  src: url("/fonts/GeomGraphicRegularItalic.ttf") format("ttf");
-  font-weight: normal;
+  font-family: "geom-graphic";
+  src: url("/fonts/GeomGraphicRegularItalic.woff") format("woff"),
+  url("/fonts/GeomGraphicRegularItalic.ttf") format("ttf"),
+  url("/fonts/GeomGraphicRegularItalic.woff2") format("woff2");
+  font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Geom Graphic";
-  src: url("/fonts/GeomGraphicSemiBold.ttf") format("woff");
-  font-weight: bold;
+  font-family: "geom-graphic";
+  src: url("/fonts/GeomGraphicSemiBold.woff") format("woff"),
+  url("/fonts/GeomGraphicSemiBold.ttf") format("ttf"),
+  url("/fonts/GeomGraphicSemiBold.woff2") format("woff2");
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Geom Graphic";
-  src: url("/fonts/GeomGraphicSemiBoldItalic.ttf") format("ttf");
-  font-weight: bold;
+  font-family: "geom-graphic";
+  src: url("/fonts/GeomGraphicSemiBoldItalic.woff") format("woff"),
+  url("/fonts/GeomGraphicSemiBoldItalic.ttf") format("ttf"),
+  url("/fonts/GeomGraphicSemiBoldItalic.woff2") format("woff2");
+  font-weight: 600;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Geom Graphic";
-  src: url("/fonts/GeomGraphicBold.ttf") format("ttf");
-  font-weight: bolder;
+  font-family: "geom-graphic";
+  src: url("/fonts/GeomGraphicBold.woff") format("woff"),
+  url("/fonts/GeomGraphicBold.ttf") format("ttf"),
+  url("/fonts/GeomGraphicBold.woff2") format("woff2");
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Geom Graphic";
-  src: url("/fonts/GeomGraphicBoldItalic.ttf") format("ttf");
-  font-weight: bolder;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Carbon";
-  src: url("/fonts/CarbonThin.ttf") format("ttf");
-  font-weight: lighter;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Carbon";
-  src: url("/fonts/CarbonThinItalic.ttf") format("ttf");
-  font-weight: lighter;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Carbon";
-  src: url("/fonts/CarbonRegular.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Carbon";
-  src: url("/fonts/CarbonRegularItalic.ttf") format("ttf");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Carbon";
-  src: url("/fonts/CarbonBold.ttf") format("ttf");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Carbon";
-  src: url("/fonts/CarbonBoldItalic.ttf") format("ttf");
-  font-weight: bold;
+  font-family: "geom-graphic";
+  src: url("/fonts/GeomGraphicBoldItalic.woff") format("woff"),
+  url("/fonts/GeomGraphicBoldItalic.ttf") format("ttf"),
+  url("/fonts/GeomGraphicBoldItalic.woff2") format("woff2");
+  font-weight: 700;
   font-style: italic;
   font-display: swap;
 }
