@@ -63,7 +63,7 @@
           class="w-full flex flex-col justify-center items-center md:flex-row gap-3 md:gap-10"
         >
           <a
-            href="#"
+            href="#contact"
             @mouseover="hoverL = true"
             @mouseleave="hoverL = false"
             class="w-full sm:w-auto bg-ci-blue group flex items-center justify-center px-6 py-3 text-sm rounded text-white font-semibold transition-all duration-300 ease-in-out border-[1px] border-gray-700 hover:bg-ci-purple hover:border-ci-purple hover:shadow-lg text-center"
@@ -81,7 +81,7 @@
             <p>Get in Touch</p></a
           >
           <a
-            href="#"
+            href="#projects"
             class="w-full sm:w-auto bg-ci-blue group flex items-center justify-center px-6 py-3 text-sm rounded text-white font-semibold transition-all duration-300 ease-in-out border-[1px] border-gray-700 hover:bg-ci-purple hover:border-ci-purple hover:shadow-lg text-center"
             @mouseover="hoverR = true"
             @mouseleave="hoverR = false"

@@ -2,6 +2,8 @@
   <Hero />
   <About />
   <Projects />
+  <Contact />
+  <Footer />
 </template>
 
 <script setup></script>
