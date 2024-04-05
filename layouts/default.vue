@@ -10,9 +10,9 @@ useSeoMeta({
   title: "Liam Robinson | Designer & Developer",
   ogTitle: "Liam Robinson | Designer & Developer",
   description:
-    "Liam Robinson is a German graphic and web designer from Lüneburg. Liam’s work is characterized by its clean and modern aesthetic. He has a deep understanding of both the design process and the latest web technologies, which allows him to create beautiful and user-friendly designs. Liam is a true team player and always puts the needs of his clients first. He is also a highly skilled communicator, which makes him an invaluable asset to any project.",
+    "Liam Robinson: German designer crafting clean, modern web and graphic designs from Lüneburg. Expert in design and web technologies.",
   ogDescription:
-    "Liam Robinson is a German graphic and web designer from Lüneburg. Liam’s work is characterized by its clean and modern aesthetic. He has a deep understanding of both the design process and the latest web technologies, which allows him to create beautiful and user-friendly designs. Liam is a true team player and always puts the needs of his clients first. He is also a highly skilled communicator, which makes him an invaluable asset to any project.",
+    "Liam Robinson: German designer crafting clean, modern web and graphic designs from Lüneburg. Expert in design and web technologies.",
   ogImage: "https://example.com/image.png",
   twitterCard: "summary_large_image",
 });

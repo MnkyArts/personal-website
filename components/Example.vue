@@ -1,5 +1,5 @@
 <template>
-    <div class="overflow-hidden py-16 sm:py-16">
+    <div class="overflow-hidden py-12 sm:py-12">
       <div
       class="absolute top-0 bottom-0 left-0 right-0 bg-no-repeat bg-projects min-h-full bg-top [background-position-x:center]"
       style="

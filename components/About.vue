@@ -22,7 +22,7 @@
     ></div>
     <div
       data-aos="fade-right"
-      class="absolute top-16 -right-10 md:right-40"
+      class="absolute top-16 -right-5 md:right-40"
     >
       <img
         draggable="false"
@@ -36,7 +36,7 @@
         "
       />
     </div>
-    <div data-aos="fade-left" class="absolute top-16 -left-10 md:left-64">
+    <div data-aos="fade-left" class="absolute top-16 left-10 md:left-64">
       <img
         draggable="false"
         src="/img/mailbox.png"
@@ -56,12 +56,12 @@
         <p class="md:w-[45rem] font-semibold drop-shadow-[2px_4px_15px_black]">
           I'm <span class="text-ci-purple">Liam Robinson</span>, a graphic designer and web developer from Lüneburg, Germany, with 8+ years of experience. I excel in logo, web, and print design, offering effective and efficient solutions for your design needs. In my free time, I work on various projects using Node.js, Next.js, and alt:V. Occasionally, you can also watch me on Twitch to see what I'm currently working on.
         </p>
-        <div class="flex flex-col md:flex-row gap-3 md:gap-10">
+        <div class="w-full flex flex-col justify-center items-center md:flex-row gap-3 md:gap-10">
           <a
             href="#"
             @mouseover="hoverL = true"
             @mouseleave="hoverL = false"
-            class="bg-ci-blue group flex items-center justify-center px-6 py-3 text-sm rounded text-white font-semibold transition-all duration-300 ease-in-out border-[1px] border-gray-700 hover:bg-ci-purple hover:border-ci-purple hover:shadow-lg text-center"
+            class="w-full sm:w-auto bg-ci-blue group flex items-center justify-center px-6 py-3 text-sm rounded text-white font-semibold transition-all duration-300 ease-in-out border-[1px] border-gray-700 hover:bg-ci-purple hover:border-ci-purple hover:shadow-lg text-center"
             ><svg
               data-v-adc1ba32=""
               viewBox="0 0 10 16"
@@ -77,7 +77,7 @@
           >
           <a
             href="#"
-            class="bg-ci-blue group flex items-center justify-center px-6 py-3 text-sm rounded text-white font-semibold transition-all duration-300 ease-in-out border-[1px] border-gray-700 hover:bg-ci-purple hover:border-ci-purple hover:shadow-lg text-center"
+            class="w-full sm:w-auto bg-ci-blue group flex items-center justify-center px-6 py-3 text-sm rounded text-white font-semibold transition-all duration-300 ease-in-out border-[1px] border-gray-700 hover:bg-ci-purple hover:border-ci-purple hover:shadow-lg text-center"
             @mouseover="hoverR = true"
             @mouseleave="hoverR = false"
           >

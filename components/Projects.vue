@@ -2,11 +2,11 @@
   <section
     id="play"
     data-aos="fade-up"
-    class="h-full w-full flex flex-col items-center justify-center relative overflow-hidden py-12 md:py-28 md:-mt-16"
+    class="h-full w-full flex flex-col relative overflow-hidden py-12 md:py-28 md:-mt-16"
   >
     <div class="absolute top-0 bottom-0 left-0 right-0 min-h-full"></div>
-    <div class="relative z-10">
-      <div class="flex flex-col justify-center items-center mb-10">
+    <div class="relative z-10 flex flex-row items-center">
+      <div class="flex flex-col px-6 sm:mb-10 sm:px-32">
         <h2
           class="font-geom text-white text-4xl sm:text-5xl md:text-7xl font-bold md:mb-5"
         >
@@ -16,9 +16,10 @@
           Latest work i've done
         </p>
       </div>
+        <div class="hidden sm:block w-1/2 h-[1px] bg-gradient-to-r from-ci-purple"></div>
     </div>
-    <Example class="relative z-100 w-full" />
-    <Example2 class="relative z-100 w-full" />
+    <Example data-aos="fade-right" data-aos-duration="1000" class="relative z-100 w-full" />
+    <Example2 data-aos="fade-left" data-aos-duration="1000" class="relative z-100 w-full" />
   </section>
 </template>
 
