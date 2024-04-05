@@ -18,11 +18,28 @@
       </div>
         <div class="hidden sm:block w-1/2 h-[1px] bg-gradient-to-r from-ci-purple"></div>
     </div>
-    <Example data-aos="fade-right" data-aos-duration="1000" class="relative z-100 w-full" />
-    <Example2 data-aos="fade-left" data-aos-duration="1000" class="relative z-100 w-full" />
+
+    <ProjectItem v-for="(project, index) in projects" :key="index" :left="index % 2 === 0" v-bind="project" />
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+
+const projects = [
+  {
+    tag: 'Website',
+    title: 'Planet Reallife',
+    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+    img: 'https://i.imgur.com/LpH1xTC.jpeg'
+  },
+  {
+    tag: 'Website',
+    title: 'Datenleak',
+    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+    img: 'https://i.imgur.com/i9wbqNn.png'
+  }
+]
+
+</script>
 
 <style lang="scss" scoped></style>
