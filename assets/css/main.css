@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Geom Graphic";
-  src: url("/fonts/GeomGraphicLight.woff") format("woff");
+  src: url("/fonts/GeomGraphicLight.ttf") format("ttf");
   font-weight: lighter;
   font-style: normal;
   font-display: swap;
@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: "Geom Graphic";
-  src: url("/fonts/GeomGraphicLightItalic.woff") format("woff");
+  src: url("/fonts/GeomGraphicLightItalic.ttf") format("ttf");
   font-weight: lighter;
   font-style: italic;
   font-display: swap;
@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: "Geom Graphic";
-  src: url("/fonts/GeomGraphicRegular.woff") format("woff");
+  src: url("/fonts/GeomGraphicRegular.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -28,7 +28,7 @@
 
 @font-face {
   font-family: "Geom Graphic";
-  src: url("/fonts/GeomGraphicRegularItalic.woff") format("woff");
+  src: url("/fonts/GeomGraphicRegularItalic.ttf") format("ttf");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -36,7 +36,7 @@
 
 @font-face {
   font-family: "Geom Graphic";
-  src: url("/fonts/GeomGraphicSemiBold.woff") format("woff");
+  src: url("/fonts/GeomGraphicSemiBold.ttf") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -44,7 +44,7 @@
 
 @font-face {
   font-family: "Geom Graphic";
-  src: url("/fonts/GeomGraphicSemiBoldItalic.woff") format("woff");
+  src: url("/fonts/GeomGraphicSemiBoldItalic.ttf") format("ttf");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -52,7 +52,7 @@
 
 @font-face {
   font-family: "Geom Graphic";
-  src: url("/fonts/GeomGraphicBold.woff") format("woff");
+  src: url("/fonts/GeomGraphicBold.ttf") format("ttf");
   font-weight: bolder;
   font-style: normal;
   font-display: swap;
@@ -60,7 +60,7 @@
 
 @font-face {
   font-family: "Geom Graphic";
-  src: url("/fonts/GeomGraphicBoldItalic.woff") format("woff");
+  src: url("/fonts/GeomGraphicBoldItalic.ttf") format("ttf");
   font-weight: bolder;
   font-style: italic;
   font-display: swap;
